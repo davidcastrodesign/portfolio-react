@@ -1,0 +1,21 @@
+.jumbotron {
+    background: url("/public/images/test_bg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+img {
+    max-width: 225px;
+} 
+
+div#headingOne.card-header {
+    background: url("/public/images/test_bg.jpg") no-repeat center center fixed;
+}
+
+h1 {
+    /* font-family: Klee, Verdana, Helvetica, sans-serif; */
+    color: rgb(91, 91, 64);
+}
