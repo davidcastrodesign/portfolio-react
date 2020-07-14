@@ -9,7 +9,7 @@ export const Header = () => {
             David Castro Castaneda
           </a>
           <button
-            class='navbar-toggler'
+            className='navbar-toggler'
             type='button'
             data-toggle='collapse'
             data-target='#navbarNav'
@@ -23,7 +23,7 @@ export const Header = () => {
             <ul className='navbar-nav'>
               <li className='nav-item active'>
                 <a className='nav-link' href={'...'}>
-                  Home<span class='sr-only'>(current)</span>
+                  Home<span className='sr-only'>(current)</span>
                 </a>
               </li>
               <li className='nav-item'>
@@ -49,7 +49,7 @@ export const Header = () => {
                 <div
                   className='modal fade'
                   id='exampleModal'
-                  tabindex='-1'
+                  tabIndex='-1'
                   role='dialog'
                   aria-labelledby='exampleModalLabel'
                   aria-hidden='true'
@@ -72,7 +72,7 @@ export const Header = () => {
                       <div className='modal-body'>
                         <form>
                           <div className='form-group'>
-                            <label for='fname'>Name</label>
+                            <label htmlFor='fname'>Name</label>
                             <input
                               type='text'
                               className='form-control'
@@ -82,7 +82,7 @@ export const Header = () => {
                             />
                           </div>
                           <div className='form-group'>
-                            <label for='lemail'>Email</label>
+                            <label htmlFor='lemail'>Email</label>
                             <input
                               type='email'
                               className='form-control'
@@ -91,7 +91,7 @@ export const Header = () => {
                             />
                           </div>
                           <div className='form-group'>
-                            <label for='textarea'>Message</label>
+                            <label htmlFor='textarea'>Message</label>
                             <textarea
                               className='form-control'
                               id='textarea'

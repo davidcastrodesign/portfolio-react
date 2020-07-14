@@ -1,5 +1,5 @@
-.jumbotron {
-  background: url('/src/images/test_bg.jpg') no-repeat center center fixed;
+div.jumbotron.jumbotron-fluid {
+  background: url('./images/test_bg.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -12,7 +12,7 @@ img {
 }
 
 div#headingOne.card-header {
-  background: url('/src/images/test_bg.jpg') no-repeat center center fixed;
+  background: url('./images/test_bg.jpg') no-repeat center center fixed;
 }
 
 h1 {
