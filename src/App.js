@@ -1,6 +1,7 @@
 import React from 'react';
-import { Header } from './components/Header';
+import Header from './components/Header';
 import Bio from './components/Bio';
+import Projects from './components/Projects';
 
 import './App.css';
 
@@ -9,6 +10,7 @@ function App() {
     <div>
       <Header />
       <Bio />
+      <Projects />
     </div>
   );
 }
