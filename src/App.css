@@ -19,3 +19,9 @@ h1 {
   /* font-family: Klee, Verdana, Helvetica, sans-serif; */
   color: rgb(91, 91, 64);
 }
+
+footer {
+  list-style-type: none;
+  align-content: center;
+  background-color: white;
+}

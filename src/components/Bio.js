@@ -16,10 +16,12 @@ export const Bio = () => {
             </div>
             <div className='col-sm-9 col-md'>
               <h1 className='display-5 align-left pl-4 pt-4'>
-                Hello, I'm
-                <span className='text-danger'> David Castro Castaneda</span>.
+                Hello,
                 <br />
-                I'm a Graphic and Full Stack Software Developer.
+                I'm
+                <span className='text-danger'> David</span>.
+                <br />
+                I'm a Full Stack Software Developer.
               </h1>
               <div className='accordion' id='accordionExample'>
                 <div className='card-header' id='headingOne'>

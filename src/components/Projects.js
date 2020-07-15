@@ -7,7 +7,7 @@ export const Projects = () => {
   return (
     <div>
       <h2 className='text-center'>PROJECTS</h2>
-      <div className='row'>
+      <div className='row mx-auto'>
         <div className='col'>
           <div
             className='card align-items-center p-3 border-0 text-left'

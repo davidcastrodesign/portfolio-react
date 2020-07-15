@@ -8,7 +8,7 @@ export const Header = () => {
       <header>
         <nav className='navbar navbar-expand-lg navbar-light bg-light'>
           <Link className='navbar-brand' to='/'>
-            David Castro Castaneda
+            <h2>David Castro Castaneda</h2>
           </Link>
 
           <button
