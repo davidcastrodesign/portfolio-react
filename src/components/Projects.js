@@ -33,7 +33,7 @@ export const Projects = () => {
 
         <div className='col'>
           <div
-            className='card align-items-center p-3 border-0 text-left'
+            className='card align-items-center p-3 border-0 text-center'
             style={{ width: '18rem' }}
           >
             <a
@@ -56,7 +56,7 @@ export const Projects = () => {
 
         <div className='col'>
           <div
-            className='card align-items-center p-3 border-0 text-left'
+            className='card align-items-center p-3 border-0 text-right'
             style={{ width: '18rem' }}
           >
             <a href='https://jhnpn.github.io/Project-1/' target='blank'>

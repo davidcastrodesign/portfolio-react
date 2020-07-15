@@ -23,6 +23,88 @@ export const Bio = () => {
               </h1>
               <div className='accordion' id='accordionExample'>
                 <div className='card-header' id='headingOne'>
+                  <div>
+                    <div className='nav-item'>
+                      <button
+                        type='button'
+                        className='nav-link btn /*btn-primary*/'
+                        data-toggle='modal'
+                        data-target='#exampleModal'
+                        href='#'
+                      >
+                        Contact Me
+                      </button>
+                      <div
+                        className='modal fade'
+                        id='exampleModal'
+                        tabIndex='-1'
+                        role='dialog'
+                        aria-labelledby='exampleModalLabel'
+                        aria-hidden='true'
+                      >
+                        <div className='modal-dialog' role='document'>
+                          <div className='modal-content'>
+                            <div className='modal-header'>
+                              <h5
+                                className='modal-title'
+                                id='exampleModalLabel'
+                              >
+                                Contact Me
+                              </h5>
+                              <button
+                                type='button'
+                                className='close'
+                                data-dismiss='modal'
+                                aria-label='Close'
+                              >
+                                <span aria-hidden='true'>&times;</span>
+                              </button>
+                            </div>
+                            <div className='modal-body'>
+                              <form>
+                                <div className='form-group'>
+                                  <label htmlFor='fname'>Name</label>
+                                  <input
+                                    type='text'
+                                    className='form-control'
+                                    id='fname'
+                                    name='name'
+                                    placeholder='Jane Smith'
+                                  />
+                                </div>
+                                <div className='form-group'>
+                                  <label htmlFor='lemail'>Email</label>
+                                  <input
+                                    type='email'
+                                    className='form-control'
+                                    id='lemail'
+                                    placeholder='name@gmail.com'
+                                  />
+                                </div>
+                                <div className='form-group'>
+                                  <label htmlFor='textarea'>Message</label>
+                                  <textarea
+                                    className='form-control'
+                                    id='textarea'
+                                    placeholder='Write something..'
+                                    rows='3'
+                                  ></textarea>
+                                </div>
+                              </form>
+                            </div>
+                            <div className='modal-footer'>
+                              <button
+                                type='submit'
+                                className='btn btn-info mb-2'
+                              >
+                                Submit
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                   <p
                     className='lead text-info'
                     type='button'
